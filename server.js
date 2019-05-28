@@ -9,7 +9,7 @@ const uuid = require("uuid");
 
 mongoose
   .connect(
-    "mongodb+srv://Ranjith8:Ranjith8..@practicecluster-2b9h7.mongodb.net/userdata?retryWrites=true",
+    "mongodb+srv://<username>:<password>@practicecluster-2b9h7.mongodb.net/userdata?retryWrites=true",
     {
       useNewUrlParser: true
     }
